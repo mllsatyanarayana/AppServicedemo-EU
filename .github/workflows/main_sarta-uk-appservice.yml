@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'sarta-uk-appservice'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_14765500bc6e454091dfbbd65d1400a6 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_0a745d09ebea4fec8bca3042c7899c87 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
